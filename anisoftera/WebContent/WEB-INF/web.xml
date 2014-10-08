@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>anisoftera</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<jsp-config>
+		<taglib>
+			<taglib-uri>http://java.sun.com/jsp/jstl/fmt</taglib-uri>
+			<taglib-location>/WEB-INF/fmt.tld</taglib-location>
+		</taglib>
+
+		<taglib>
+			<taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+			<taglib-location>/WEB-INF/c.tld</taglib-location>
+		</taglib>
+
+		<taglib>
+			<taglib-uri>http://java.sun.com/jsp/jstl/sql</taglib-uri>
+			<taglib-location>/WEB-INF/sql.tld</taglib-location>
+		</taglib>
+
+		<taglib>
+			<taglib-uri>http://java.sun.com/jsp/jstl/x</taglib-uri>
+			<taglib-location>/WEB-INF/x.tld</taglib-location>
+		</taglib>
+
+	</jsp-config>
+
+	<display-name>ListarUsuario</display-name>
+	<servlet>
+		<description>ListarUsuario</description>
+		<display-name>ListarUsuario</display-name>
+		<servlet-name>ListarUsuario</servlet-name>
+		<servlet-class>umariana.anisoftera.controlador.ListarUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListarUsuario</servlet-name>
+		<url-pattern>/ListarUsuario</url-pattern>
+	</servlet-mapping>
+
+
+	<display-name>AgregarUsuario</display-name>
+	<servlet>
+		<description>AgregarUsuario</description>
+		<display-name>AgregarUsuario</display-name>
+		<servlet-name>AgregarUsuario</servlet-name>
+		<servlet-class>umariana.anisoftera.controlador.AgregarUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AgregarUsuario</servlet-name>
+		<url-pattern>/AgregarUsuario</url-pattern>
+	</servlet-mapping>
+
+
+
+	<display-name>AgregarEquipo</display-name>
+	<servlet>
+		<description>AgregarEquipo</description>
+		<display-name>AgregarEquipo</display-name>
+		<servlet-name>AgregarEquipo</servlet-name>
+		<servlet-class>umariana.anisoftera.controlador.AgregarEquipo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AgregarEquipo</servlet-name>
+		<url-pattern>/AgregarEquipo</url-pattern>
+	</servlet-mapping>
+
+	<display-name>LoginUsuario</display-name>
+	<servlet>
+		<description>LoginUsuario</description>
+		<display-name>LoginUsuario</display-name>
+		<servlet-name>loginUsuario</servlet-name>
+		<servlet-class>umariana.anisoftera.controlador.LoginUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginUsuario</servlet-name>
+		<url-pattern>/usuario</url-pattern>
+	</servlet-mapping>
+
+
+	<display-name>AgregarIntegrnate</display-name>
+	<servlet>
+		<description>AgregarIntegrnate</description>
+		<display-name>AgregarIntegrnate</display-name>
+		<servlet-name>AgregarIntegrnate</servlet-name>
+		<servlet-class>umariana.anisoftera.controlador.AgregarIntegrnate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AgregarIntegrnate</servlet-name>
+		<url-pattern>/AgregarIntegrnate</url-pattern>
+	</servlet-mapping>
+
+
+	<display-name>AgregarProyecto</display-name>
+	<servlet>
+		<description>AgregarProyecto</description>
+		<display-name>AgregarProyecto</display-name>
+		<servlet-name>AgregarProyecto</servlet-name>
+		<servlet-class>umariana.anisoftera.controlador.AgregarProyecto</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AgregarProyecto</servlet-name>
+		<url-pattern>/AgregarProyecto</url-pattern>
+	</servlet-mapping>
+
+	<!-- AgregarCiclo -->
+
+	<display-name>AgregarCiclo</display-name>
+	<servlet>
+		<description>AgregarCiclo</description>
+		<display-name>AgregarCiclo</display-name>
+		<servlet-name>AgregarCiclo</servlet-name>
+		<servlet-class>umariana.anisoftera.controlador.AgregarCiclo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AgregarCiclo</servlet-name>
+		<url-pattern>/AgregarCiclo</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- AgregarSemana -->
+
+
+	<display-name>AgregarSemana</display-name>
+	<servlet>
+		<description>AgregarSemana</description>
+		<display-name>AgregarSemana</display-name>
+		<servlet-name>AgregarSemana</servlet-name>
+		<servlet-class>umariana.anisoftera.controlador.AgregarSemana</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AgregarSemana</servlet-name>
+		<url-pattern>/AgregarSemana</url-pattern>
+	</servlet-mapping>
+	<!-- AgregarFase -->
+	
+	
+		<display-name>AgregarFase</display-name>
+	<servlet>
+		<description>AgregarFase</description>
+		<display-name>AgregarFase</display-name>
+		<servlet-name>AgregarFase</servlet-name>
+		<servlet-class>umariana.anisoftera.controlador.AgregarFase</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AgregarFase</servlet-name>
+		<url-pattern>/AgregarFase</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- AgregarActividad -->
+	
+			<display-name>AgregarActividad</display-name>
+	<servlet>
+		<description>AgregarActividad</description>
+		<display-name>AgregarActividad</display-name>
+		<servlet-name>AgregarActividad</servlet-name>
+		<servlet-class>umariana.anisoftera.controlador.AgregarActividad</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AgregarActividad</servlet-name>
+		<url-pattern>/AgregarActividad</url-pattern>
+	</servlet-mapping>
+
+<!-- RegistrarActividadProyecto  -->
+			<display-name>RegistrarActividadProyecto</display-name>
+	<servlet>
+		<description>RegistrarActividadProyecto</description>
+		<display-name>RegistrarActividadProyecto</display-name>
+		<servlet-name>RegistrarActividadProyecto</servlet-name>
+		<servlet-class>umariana.anisoftera.controlador.RegistrarActividadProyecto</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistrarActividadProyecto</servlet-name>
+		<url-pattern>/RegistrarActividadProyecto</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- RegistrarFaseProyecto -->
+			<display-name>RegistrarFaseProyecto</display-name>
+	<servlet>
+		<description>RegistrarFaseProyecto</description>
+		<display-name>RegistrarFaseProyecto</display-name>
+		<servlet-name>RegistrarFaseProyecto</servlet-name>
+		<servlet-class>umariana.anisoftera.controlador.RegistrarFaseProyecto</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistrarFaseProyecto</servlet-name>
+		<url-pattern>/RegistrarFaseProyecto</url-pattern>
+	</servlet-mapping>
+
+</web-app>

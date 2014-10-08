@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>Acceso Anisoftera 2014</title>
+	<!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+    <!-- Morris Charts CSS -->
+    <link href="css/plugins/morris.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!-- Estilo imagen e iframe -->
+	<link href="./css/login.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!-- Valida el formulario que se cargue el Focus-->
+function carga(){
+	document.getElementById("usuario").focus();
+}
+<!-- Valida los campos vacios de usuario y el password -->
+function valideDatos(){
+   var usuario = document.getElementById("usuario");
+   var password = document.getElementById("password");
+   if((usuario.value == "" || usuario.value == '' || usuario.value == null) &&
+      (password.value == "" || password.value == '' || password.value == null)){
+    	alert("Ingresa Tu Usuario y Tu Password");
+    	usuario.focus();
+    	return false;
+    }else if(usuario.value == "" || usuario.value == '' || usuario.value == null){
+    	alert("Ingresa Tu Usuario");
+    	usuario.focus();
+    	return false;
+    }else if(password.value == "" || password.value == '' || password.value == null){
+    	alert("Ingresa Tu Password");
+    	password.focus();
+    	return false;
+    }else {
+    	return true;
+    }
+}
+</script>
+</head>
+<body onload="carga();">
+<div class="login">
+<div class="img"><img src="img/logo.png" alt="logo"></div>
+<br>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title">Login</h3>
+</div>
+<div class="panel-body">
+<form action="usuario" method="POST" onsubmit="return valideDatos();">
+<table>
+	<tr>
+		<td><h4>Username:</h4></td>
+		<td>
+			<div class="input-group">
+				<input type="text" class="form-control" name="usuario" id="usuario" title="Ingrese el Usuario Registrado. Gracias">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td><h4>Password:</h4></td>
+		<td>
+			<div class="input-group">
+				<input type="password" class="form-control" name="password" id="password" title="Ingrese su Password registrado. Gracias">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label class="checkbox"> <input type="checkbox"	value="remember-me"> Recordarme </label>
+		</td>
+		<td></td>
+		<td><button type="submit" id="btn" class="btn btn-inverse" name="Enviar">Iniciar sesión</button></td>
+	</tr>
+	<tr>
+		<td>
+			<td></td>
+			<a href="registrarUsuario.jsp">Registrate</a>
+
+		</td>
+	</tr>
+</table>
+</form>
+</div>
+</div>
+</div>
+<footer>
+	<p>Copyright @ esta investigacion-2014</p>
+</footer>
+</body>
+</html>

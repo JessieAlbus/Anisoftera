@@ -1,0 +1,23 @@
+.estilo{
+	width: 210px;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	height: 30px;
+	background-color: #ddd;
+}
+#lista1{
+	width: 198px;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	height: 100px;
+	background-color: #ddd;	
+	size: 30px;
+}
+#lista2{
+	width: 198px;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	height: 100px;
+	background-color: #ddd;
+	size: 30px;
+}

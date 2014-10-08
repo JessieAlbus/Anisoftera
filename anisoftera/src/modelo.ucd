@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="modelo" size="1011,530" id="" metadata="uml2-1.0" initialized="true" zoom="0.75" scrolledX="519" scrolledY="522" tag="1000" key="32303037303533312D3130303020616E69736F66746572612F57494C4C">
+  <children xsi:type="editmodel:PackageEditModel" name="umariana.anisoftera.mundo" location="291,-1" size="916,1127" id="umariana.anisoftera.mundo">
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@children.6/@sourceConnections.0 //@children.2/@children.7/@sourceConnections.0 //@children.2/@children.8/@sourceConnections.0 //@children.2/@children.9/@sourceConnections.0 //@children.1/@children.7/@sourceConnections.0" name="Integracion" location="29,38" size="167,715" id="umariana.anisoftera.mundo/Integracion" runTimeClassModel="cargarFase(),agregarCiclo(ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;),buscarProyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),modificarActividad(Ljava.lang.String;IILjava.lang.String;),eliminarEquipo(Ljava.lang.String;Ljava.lang.String;),usuarios,modificarUsuario(Ljava.lang.String;Ljava.lang.String;),modificarSemana(ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I),cargarUsuarios(),modificarIntegrante(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),buscarIntegrante(I),buscarCiclo(I),modificarEquipo(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),buscarFase(Ljava.lang.String;),agregarFase(Ljava.lang.String;),eliminarIntegrante(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),agregarIntegrante(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),eliminarSemana(ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;I),Integracion(),buscarUsuario(Ljava.lang.String;),eliminarFase(Ljava.lang.String;),eliminarCiclo(ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;),agregarSemana(ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I),buscarSemana(I),agregarFasesProyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I[Ljava.lang.String;),agregarUsusario(Ljava.lang.String;Ljava.lang.String;),agregarActividad(Ljava.lang.String;IILjava.lang.String;),agregarEquipo(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),buscar(Ljava.lang.String;),modificarProyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;),modificarCiclo(I),buscarEquipo(Ljava.lang.String;Ljava.lang.String;),guardarFase(Lumariana.anisoftera.mundo.Fase;),usuarioDAO,agregarProyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;),guardarUsuario(Lumariana.anisoftera.mundo.Usuario;),eliminarProyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="144,36">
+        <children xsi:type="editmodel:AttributeEditModel" name="usuarios" id="umariana.anisoftera.mundo/Integracion#usuarios"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="usuarioDAO" id="umariana.anisoftera.mundo/Integracion#usuarioDAO"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="141,630">
+        <children xsi:type="editmodel:MethodEditModel" name="Integracion" id="umariana.anisoftera.mundo/Integracion#Integracion()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregarCiclo" id="umariana.anisoftera.mundo/Integracion#agregarCiclo(ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregarEquipo" id="umariana.anisoftera.mundo/Integracion#agregarEquipo(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregarUsusario" id="umariana.anisoftera.mundo/Integracion#agregarUsusario(Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="buscarCiclo" id="umariana.anisoftera.mundo/Integracion#buscarCiclo(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="buscarIntegrante" id="umariana.anisoftera.mundo/Integracion#buscarIntegrante(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="buscarProyecto" id="umariana.anisoftera.mundo/Integracion#buscarProyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="buscarSemana" id="umariana.anisoftera.mundo/Integracion#buscarSemana(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="buscarUsuario" id="umariana.anisoftera.mundo/Integracion#buscarUsuario(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="cargarUsuarios" id="umariana.anisoftera.mundo/Integracion#cargarUsuarios()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="guardarUsuario" id="umariana.anisoftera.mundo/Integracion#guardarUsuario(Lumariana.anisoftera.mundo.Usuario;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificarCiclo" id="umariana.anisoftera.mundo/Integracion#modificarCiclo(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregarSemana" id="umariana.anisoftera.mundo/Integracion#agregarSemana(ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="buscar" id="umariana.anisoftera.mundo/Integracion#buscar(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregarIntegrante" id="umariana.anisoftera.mundo/Integracion#agregarIntegrante(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificarUsuario" id="umariana.anisoftera.mundo/Integracion#modificarUsuario(Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregarProyecto" id="umariana.anisoftera.mundo/Integracion#agregarProyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminarCiclo" id="umariana.anisoftera.mundo/Integracion#eliminarCiclo(ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminarEquipo" id="umariana.anisoftera.mundo/Integracion#eliminarEquipo(Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminarIntegrante" id="umariana.anisoftera.mundo/Integracion#eliminarIntegrante(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminarSemana" id="umariana.anisoftera.mundo/Integracion#eliminarSemana(ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminarProyecto" id="umariana.anisoftera.mundo/Integracion#eliminarProyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificarIntegrante" id="umariana.anisoftera.mundo/Integracion#modificarIntegrante(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificarSemana" id="umariana.anisoftera.mundo/Integracion#modificarSemana(ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificarProyecto" id="umariana.anisoftera.mundo/Integracion#modificarProyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificarEquipo" id="umariana.anisoftera.mundo/Integracion#modificarEquipo(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="buscarEquipo" id="umariana.anisoftera.mundo/Integracion#buscarEquipo(Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregarFase" id="umariana.anisoftera.mundo/Integracion#agregarFase(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="guardarFase" id="umariana.anisoftera.mundo/Integracion#guardarFase(Lumariana.anisoftera.mundo.Fase;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="buscarFase" id="umariana.anisoftera.mundo/Integracion#buscarFase(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminarFase" id="umariana.anisoftera.mundo/Integracion#eliminarFase(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="cargarFase" id="umariana.anisoftera.mundo/Integracion#cargarFase()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregarActividad" id="umariana.anisoftera.mundo/Integracion#agregarActividad(Ljava.lang.String;IILjava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificarActividad" id="umariana.anisoftera.mundo/Integracion#modificarActividad(Ljava.lang.String;IILjava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregarFasesProyecto" id="umariana.anisoftera.mundo/Integracion#agregarFasesProyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I[Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/Fase@fases+umariana.anisoftera.mundo/Integracion@integracion" source="//@children.0/@children.0" target="//@children.0/@children.7" targetEnd="//@children.0/@children.0/@sourceConnections.0/@children.1" label="//@children.0/@children.0/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="integracion" location="167,82" id="umariana.anisoftera.mundo/Fase@fases+umariana.anisoftera.mundo/Integracion@integracion|umariana.anisoftera.mundo/Integracion#integracion" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="fases" location="0,91" id="umariana.anisoftera.mundo/Fase@fases+umariana.anisoftera.mundo/Integracion@integracion|umariana.anisoftera.mundo/Fase#fases" multiplicityLabel="//@children.0/@children.0/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@children.0/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - fases" location="752,97" size="38,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="*" location="786,125" size="4,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Usuario" location="247,50" size="164,373" id="umariana.anisoftera.mundo/Usuario" runTimeClassModel="darMes(),cargarDatosEquipos(),eliminarEquipo(Ljava.lang.String;),clave,rUTA,modificarEquipo(Ljava.lang.String;Ljava.lang.String;),nombre,id(),darAnio(),guardarEquipo(Lumariana.anisoftera.mundo.Equipo;),agregarEquipo(Ljava.lang.String;Ljava.lang.String;),buscarEquipo(Ljava.lang.String;),Usuario(Ljava.lang.String;Ljava.lang.String;),generarId(),cargarEquipos(),cargarDatosCalendario(),darCalendario(),buscarEmail(Ljava.lang.String;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="89,54">
+        <children xsi:type="editmodel:AttributeEditModel" name="clave" id="umariana.anisoftera.mundo/Usuario#clave"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="nombre" id="umariana.anisoftera.mundo/Usuario#nombre"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="rUTA" id="umariana.anisoftera.mundo/Usuario#rUTA"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="141,270">
+        <children xsi:type="editmodel:MethodEditModel" name="Usuario" id="umariana.anisoftera.mundo/Usuario#Usuario(Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregarEquipo" id="umariana.anisoftera.mundo/Usuario#agregarEquipo(Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="buscarEquipo" id="umariana.anisoftera.mundo/Usuario#buscarEquipo(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="cargarEquipos" id="umariana.anisoftera.mundo/Usuario#cargarEquipos()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="guardarEquipo" id="umariana.anisoftera.mundo/Usuario#guardarEquipo(Lumariana.anisoftera.mundo.Equipo;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificarEquipo" id="umariana.anisoftera.mundo/Usuario#modificarEquipo(Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="generarId" id="umariana.anisoftera.mundo/Usuario#generarId()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="darMes" id="umariana.anisoftera.mundo/Usuario#darMes()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="darAnio" id="umariana.anisoftera.mundo/Usuario#darAnio()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminarEquipo" id="umariana.anisoftera.mundo/Usuario#eliminarEquipo(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="darCalendario" id="umariana.anisoftera.mundo/Usuario#darCalendario()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="cargarDatosEquipos" id="umariana.anisoftera.mundo/Usuario#cargarDatosEquipos()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="cargarDatosCalendario" id="umariana.anisoftera.mundo/Usuario#cargarDatosCalendario()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="id" id="umariana.anisoftera.mundo/Usuario#id()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="buscarEmail" id="umariana.anisoftera.mundo/Usuario#buscarEmail(Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/Equipo@equipos+umariana.anisoftera.mundo/Usuario@usuario" source="//@children.0/@children.1" target="//@children.0/@children.2" targetEnd="//@children.0/@children.1/@sourceConnections.0/@children.1" label="//@children.0/@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="usuario" location="164,311" id="umariana.anisoftera.mundo/Equipo@equipos+umariana.anisoftera.mundo/Usuario@usuario|umariana.anisoftera.mundo/Usuario#usuario" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="equipos" location="0,61" id="umariana.anisoftera.mundo/Equipo@equipos+umariana.anisoftera.mundo/Usuario@usuario|umariana.anisoftera.mundo/Equipo#equipos" multiplicityLabel="//@children.0/@children.1/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@children.1/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - equipos" location="670,339" size="48,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="*" location="714,367" size="4,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.datos/EquipoDAO@equipoDAO+umariana.anisoftera.mundo/Usuario@usuario" source="//@children.0/@children.1" target="//@children.1/@children.2" targetEnd="//@children.0/@children.1/@sourceConnections.1/@children.1" label="//@children.0/@children.1/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@children.1/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="usuario" location="164,120" id="umariana.anisoftera.datos/EquipoDAO@equipoDAO+umariana.anisoftera.mundo/Usuario@usuario|umariana.anisoftera.mundo/Usuario#usuario" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="equipoDAO" location="0,96" id="umariana.anisoftera.datos/EquipoDAO@equipoDAO+umariana.anisoftera.mundo/Usuario@usuario|umariana.anisoftera.datos/EquipoDAO#equipoDAO" multiplicityLabel="//@children.0/@children.1/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@children.1/@sourceConnections.1/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - equipoDAO" location="1197,147" size="65,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1244,175" size="18,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.1/@sourceConnections.0" name="Equipo" location="435,300" size="190,481" id="umariana.anisoftera.mundo/Equipo" runTimeClassModel="agregarProyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;),modificarIntegrante(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),rUTA,guardarProyecto(Lumariana.anisoftera.mundo.Proyecto;Ljava.lang.String;),eliminarProyecto(Ljava.lang.String;Ljava.lang.String;),guardarIntegrante(Lumariana.anisoftera.mundo.Integrante;),nombre,id(),Equipo(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),cargarDatosProyectos(),modificarProyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I),cargarIntegrantes(),buscarIntegrante(Ljava.lang.String;),agregarIntegrante(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),cargarDatosIntegrantes(),eliminarIntegrante(Ljava.lang.String;),cargarProyecto(),id,email,buscarProyecto(Ljava.lang.String;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="167,144">
+        <children xsi:type="editmodel:AttributeEditModel" name="id" id="umariana.anisoftera.mundo/Equipo#id"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="nombre" id="umariana.anisoftera.mundo/Equipo#nombre"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="email" id="umariana.anisoftera.mundo/Equipo#email"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="rUTA" id="umariana.anisoftera.mundo/Equipo#rUTA"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="144,288">
+        <children xsi:type="editmodel:MethodEditModel" name="Equipo" id="umariana.anisoftera.mundo/Equipo#Equipo(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="buscarIntegrante" id="umariana.anisoftera.mundo/Equipo#buscarIntegrante(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="buscarProyecto" id="umariana.anisoftera.mundo/Equipo#buscarProyecto(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="cargarIntegrantes" id="umariana.anisoftera.mundo/Equipo#cargarIntegrantes()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="cargarProyecto" id="umariana.anisoftera.mundo/Equipo#cargarProyecto()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="guardarIntegrante" id="umariana.anisoftera.mundo/Equipo#guardarIntegrante(Lumariana.anisoftera.mundo.Integrante;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregarProyecto" id="umariana.anisoftera.mundo/Equipo#agregarProyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="guardarProyecto" id="umariana.anisoftera.mundo/Equipo#guardarProyecto(Lumariana.anisoftera.mundo.Proyecto;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregarIntegrante" id="umariana.anisoftera.mundo/Equipo#agregarIntegrante(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminarProyecto" id="umariana.anisoftera.mundo/Equipo#eliminarProyecto(Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminarIntegrante" id="umariana.anisoftera.mundo/Equipo#eliminarIntegrante(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificarProyecto" id="umariana.anisoftera.mundo/Equipo#modificarProyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="cargarDatosIntegrantes" id="umariana.anisoftera.mundo/Equipo#cargarDatosIntegrantes()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="cargarDatosProyectos" id="umariana.anisoftera.mundo/Equipo#cargarDatosProyectos()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificarIntegrante" id="umariana.anisoftera.mundo/Equipo#modificarIntegrante(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="id" id="umariana.anisoftera.mundo/Equipo#id()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Proyecto" location="664,459" size="155,337" id="umariana.anisoftera.mundo/Proyecto" runTimeClassModel="idProyecto,Proyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;),rUTA,cargarDatosCiclos(),nombreProyecto,fechaFin,modificarCiclo(I),fechaInicio,guardarCiclo(Lumariana.anisoftera.mundo.Ciclo;Ljava.lang.String;),eliminarCiclo(I),cargarCiclo(),buscarCiclo(I),semestre,agregarCiclo(ILjava.lang.String;),idCiclo(),anio">
+      <children xsi:type="editmodel:CompartmentEditModel" size="132,126">
+        <children xsi:type="editmodel:AttributeEditModel" name="anio" id="umariana.anisoftera.mundo/Proyecto#anio"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="fechaFin" id="umariana.anisoftera.mundo/Proyecto#fechaFin"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="fechaInicio" id="umariana.anisoftera.mundo/Proyecto#fechaInicio"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="idProyecto" id="umariana.anisoftera.mundo/Proyecto#idProyecto"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="nombreProyecto" id="umariana.anisoftera.mundo/Proyecto#nombreProyecto"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="semestre" id="umariana.anisoftera.mundo/Proyecto#semestre"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="rUTA" id="umariana.anisoftera.mundo/Proyecto#rUTA"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="119,162">
+        <children xsi:type="editmodel:MethodEditModel" name="buscarCiclo" id="umariana.anisoftera.mundo/Proyecto#buscarCiclo(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="cargarCiclo" id="umariana.anisoftera.mundo/Proyecto#cargarCiclo()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificarCiclo" id="umariana.anisoftera.mundo/Proyecto#modificarCiclo(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="cargarDatosCiclos" id="umariana.anisoftera.mundo/Proyecto#cargarDatosCiclos()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="Proyecto" id="umariana.anisoftera.mundo/Proyecto#Proyecto(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="guardarCiclo" id="umariana.anisoftera.mundo/Proyecto#guardarCiclo(Lumariana.anisoftera.mundo.Ciclo;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregarCiclo" id="umariana.anisoftera.mundo/Proyecto#agregarCiclo(ILjava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminarCiclo" id="umariana.anisoftera.mundo/Proyecto#eliminarCiclo(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="idCiclo" id="umariana.anisoftera.mundo/Proyecto#idCiclo()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/Ciclo@ciclos+umariana.anisoftera.mundo/Proyecto@proyecto" source="//@children.0/@children.3" target="//@children.0/@children.4" targetEnd="//@children.0/@children.3/@sourceConnections.0/@children.1" label="//@children.0/@children.3/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="proyecto" location="0,233" id="umariana.anisoftera.mundo/Ciclo@ciclos+umariana.anisoftera.mundo/Proyecto@proyecto|umariana.anisoftera.mundo/Proyecto#proyecto" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="ciclos" location="154,102" id="umariana.anisoftera.mundo/Ciclo@ciclos+umariana.anisoftera.mundo/Proyecto@proyecto|umariana.anisoftera.mundo/Ciclo#ciclos" multiplicityLabel="//@children.0/@children.3/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@children.3/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - ciclos" location="703,669" size="38,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="*" location="703,697" size="4,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.datos/CicloDAO@cicloDAO+umariana.anisoftera.mundo/Proyecto@proyecto" source="//@children.0/@children.3" target="//@children.1/@children.4" targetEnd="//@children.0/@children.3/@sourceConnections.1/@children.1" label="//@children.0/@children.3/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@children.3/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="proyecto" location="155,178" id="umariana.anisoftera.datos/CicloDAO@cicloDAO+umariana.anisoftera.mundo/Proyecto@proyecto|umariana.anisoftera.mundo/Proyecto#proyecto" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="cicloDAO" location="0,96" id="umariana.anisoftera.datos/CicloDAO@cicloDAO+umariana.anisoftera.mundo/Proyecto@proyecto|umariana.anisoftera.datos/CicloDAO#cicloDAO" multiplicityLabel="//@children.0/@children.3/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@children.3/@sourceConnections.1/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - cicloDAO" location="1187,615" size="55,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1224,643" size="18,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.3/@sourceConnections.0" name="Ciclo" location="252,590" size="154,283" id="umariana.anisoftera.mundo/Ciclo" runTimeClassModel="Ciclo(ILjava.lang.String;),semanaDAO,numeroCiclo,guardarFase([Ljava.lang.String;Ljava.lang.String;),modificarSemana(ILjava.lang.String;Ljava.lang.String;),asignarFases([Ljava.lang.String;),id(),buscarSemana(I),cargarSemanas(),eliminarSemana(I),guardarSemana(Lumariana.anisoftera.mundo.Semana;Ljava.lang.String;),agregarSemana(ILjava.lang.String;Ljava.lang.String;),id">
+      <children xsi:type="editmodel:CompartmentEditModel" size="131,54">
+        <children xsi:type="editmodel:AttributeEditModel" name="numeroCiclo" id="umariana.anisoftera.mundo/Ciclo#numeroCiclo"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="semanaDAO" id="umariana.anisoftera.mundo/Ciclo#semanaDAO"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="id" id="umariana.anisoftera.mundo/Ciclo#id"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="113,180">
+        <children xsi:type="editmodel:MethodEditModel" name="Ciclo"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregarSemana" id="umariana.anisoftera.mundo/Ciclo#agregarSemana(ILjava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="buscarSemana" id="umariana.anisoftera.mundo/Ciclo#buscarSemana(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="cargarSemanas" id="umariana.anisoftera.mundo/Ciclo#cargarSemanas()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminarSemana" id="umariana.anisoftera.mundo/Ciclo#eliminarSemana(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="guardarSemana" id="umariana.anisoftera.mundo/Ciclo#guardarSemana(Lumariana.anisoftera.mundo.Semana;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificarSemana" id="umariana.anisoftera.mundo/Ciclo#modificarSemana(ILjava.lang.String;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="id"/>
+        <children xsi:type="editmodel:MethodEditModel" name="asignarFases" id="umariana.anisoftera.mundo/Ciclo#asignarFases([Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="guardarFase" id="umariana.anisoftera.mundo/Ciclo#guardarFase([Ljava.lang.String;Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/Fase@fasesCiclo+umariana.anisoftera.mundo/Ciclo@ciclo" source="//@children.0/@children.4" target="//@children.0/@children.7" targetEnd="//@children.0/@children.4/@sourceConnections.0/@children.1" label="//@children.0/@children.4/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="ciclo" location="144,0" id="umariana.anisoftera.mundo/Fase@fasesCiclo+umariana.anisoftera.mundo/Ciclo@ciclo|umariana.anisoftera.mundo/Ciclo#ciclo" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="fasesCiclo" location="0,165" id="umariana.anisoftera.mundo/Fase@fasesCiclo+umariana.anisoftera.mundo/Ciclo@ciclo|umariana.anisoftera.mundo/Fase#fasesCiclo" multiplicityLabel="//@children.0/@children.4/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@children.4/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - fasesCiclo" location="729,171" size="61,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="*" location="786,199" size="4,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.datos/FaseDAO@faseDAO+umariana.anisoftera.mundo/Ciclo@ciclo" source="//@children.0/@children.4" target="//@children.1/@children.7" targetEnd="//@children.0/@children.4/@sourceConnections.1/@children.1" label="//@children.0/@children.4/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@children.4/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="ciclo" location="144,283" id="umariana.anisoftera.datos/FaseDAO@faseDAO+umariana.anisoftera.mundo/Ciclo@ciclo|umariana.anisoftera.mundo/Ciclo#ciclo" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="faseDAO" location="0,10" id="umariana.anisoftera.datos/FaseDAO@faseDAO+umariana.anisoftera.mundo/Ciclo@ciclo|umariana.anisoftera.datos/FaseDAO#faseDAO" multiplicityLabel="//@children.0/@children.4/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@children.4/@sourceConnections.1/@children.1/@children.0" navigable="true" orderingKind="1">
+          <children xsi:type="editmodel:LabelEditModel" name=" - faseDAO" location="1236,992" size="55,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="*" location="1287,964" size="4,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.9/@sourceConnections.0 //@children.0/@children.10/@sourceConnections.0" name="Integrante" location="332,898" size="180,229" id="umariana.anisoftera.mundo/Integrante" runTimeClassModel="LIDER_CALIDAD,emailIntegrante,LIDER_PLANEACION,Integrante(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),nombreIntegrante,LIDER,LIDER_DESARROLLO,rolIntegrante,LIDER_SOPORTE,idIntegrante">
+      <children xsi:type="editmodel:CompartmentEditModel" size="157,162">
+        <children xsi:type="editmodel:AttributeEditModel" name="LIDER" id="umariana.anisoftera.mundo/Integrante#LIDER"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="LIDER_CALIDAD" id="umariana.anisoftera.mundo/Integrante#LIDER_CALIDAD"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="LIDER_DESARROLLO" id="umariana.anisoftera.mundo/Integrante#LIDER_DESARROLLO"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="LIDER_PLANEACION" id="umariana.anisoftera.mundo/Integrante#LIDER_PLANEACION"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="LIDER_SOPORTE" id="umariana.anisoftera.mundo/Integrante#LIDER_SOPORTE"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="emailIntegrante" id="umariana.anisoftera.mundo/Integrante#emailIntegrante"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="idIntegrante" id="umariana.anisoftera.mundo/Integrante#idIntegrante"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="nombreIntegrante" id="umariana.anisoftera.mundo/Integrante#nombreIntegrante"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="rolIntegrante" id="umariana.anisoftera.mundo/Integrante#rolIntegrante"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="78,18">
+        <children xsi:type="editmodel:MethodEditModel" name="Integrante" id="umariana.anisoftera.mundo/Integrante#Integrante(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.8/@sourceConnections.0" name="Semana" location="613,905" size="134,139" id="umariana.anisoftera.mundo/Semana" runTimeClassModel="semanaNumero,fechaInicio,Semana(ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;),id,fechaFin">
+      <children xsi:type="editmodel:CompartmentEditModel" size="111,72">
+        <children xsi:type="editmodel:AttributeEditModel" name="fechaFin" id="umariana.anisoftera.mundo/Semana#fechaFin"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="fechaInicio" id="umariana.anisoftera.mundo/Semana#fechaInicio"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="semanaNumero" id="umariana.anisoftera.mundo/Semana#semanaNumero"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="id" id="umariana.anisoftera.mundo/Semana#id"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="69,18">
+        <children xsi:type="editmodel:MethodEditModel" name="Semana" id="umariana.anisoftera.mundo/Semana#Semana(ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/Evalucacion@evalucaciones+umariana.anisoftera.mundo/Semana@semana" source="//@children.0/@children.6" target="//@children.0/@children.9" targetEnd="//@children.0/@children.6/@sourceConnections.0/@children.1" label="//@children.0/@children.6/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.6/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="semana" location="0,42" id="umariana.anisoftera.mundo/Evalucacion@evalucaciones+umariana.anisoftera.mundo/Semana@semana|umariana.anisoftera.mundo/Semana#semana" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="evalucaciones" location="163,79" id="umariana.anisoftera.mundo/Evalucacion@evalucaciones+umariana.anisoftera.mundo/Semana@semana|umariana.anisoftera.mundo/Evalucacion#evalucaciones" multiplicityLabel="//@children.0/@children.6/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@children.6/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - evalucaciones" location="668,964" size="80,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="*" location="668,936" size="4,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/Tiempo@tiempos+umariana.anisoftera.mundo/Semana@semana" source="//@children.0/@children.6" target="//@children.0/@children.10" targetEnd="//@children.0/@children.6/@sourceConnections.1/@children.1" label="//@children.0/@children.6/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@children.6/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="semana" location="7,0" id="umariana.anisoftera.mundo/Tiempo@tiempos+umariana.anisoftera.mundo/Semana@semana|umariana.anisoftera.mundo/Semana#semana" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="tiempos" location="121,129" id="umariana.anisoftera.mundo/Tiempo@tiempos+umariana.anisoftera.mundo/Semana@semana|umariana.anisoftera.mundo/Tiempo#tiempos" multiplicityLabel="//@children.0/@children.6/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@children.6/@sourceConnections.1/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - tiempos" location="1080,329" size="47,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="*" location="1062,329" size="4,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.4/@sourceConnections.0 //@children.0/@children.0/@sourceConnections.0" name="Fase" location="507,29" size="148,175" id="umariana.anisoftera.mundo/Fase" runTimeClassModel="buscarActividad(Ljava.lang.String;),guardarActividades(Lumariana.anisoftera.mundo.Actividad;Ljava.lang.String;),cargarActividades(),agregarActividad(Ljava.lang.String;II),Fase(Ljava.lang.String;),modificarActividad(Ljava.lang.String;II),nombre">
+      <children xsi:type="editmodel:CompartmentEditModel" size="89,18">
+        <children xsi:type="editmodel:AttributeEditModel" name="nombre" id="umariana.anisoftera.mundo/Fase#nombre"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="125,108">
+        <children xsi:type="editmodel:MethodEditModel" name="Fase" id="umariana.anisoftera.mundo/Fase#Fase(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="buscarActividad" id="umariana.anisoftera.mundo/Fase#buscarActividad(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="cargarActividades" id="umariana.anisoftera.mundo/Fase#cargarActividades()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="guardarActividades" id="umariana.anisoftera.mundo/Fase#guardarActividades(Lumariana.anisoftera.mundo.Actividad;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregarActividad" id="umariana.anisoftera.mundo/Fase#agregarActividad(Ljava.lang.String;II)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificarActividad" id="umariana.anisoftera.mundo/Fase#modificarActividad(Ljava.lang.String;II)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/Actividad@actividades+umariana.anisoftera.mundo/Fase@fase" source="//@children.0/@children.7" target="//@children.0/@children.8" targetEnd="//@children.0/@children.7/@sourceConnections.0/@children.1" label="//@children.0/@children.7/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="fase" location="148,92" id="umariana.anisoftera.mundo/Actividad@actividades+umariana.anisoftera.mundo/Fase@fase|umariana.anisoftera.mundo/Fase#fase" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="actividades" location="0,82" id="umariana.anisoftera.mundo/Actividad@actividades+umariana.anisoftera.mundo/Fase@fase|umariana.anisoftera.mundo/Actividad#actividades" multiplicityLabel="//@children.0/@children.7/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@children.7/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - actividades" location="1016,99" size="65,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="*" location="1077,127" size="4,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.datos/ActividadDAO@actividadDAO+umariana.anisoftera.mundo/Fase@fase" source="//@children.0/@children.7" target="//@children.1/@children.8" targetEnd="//@children.0/@children.7/@sourceConnections.1/@children.1" label="//@children.0/@children.7/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@children.7/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="fase" location="138,175" id="umariana.anisoftera.datos/ActividadDAO@actividadDAO+umariana.anisoftera.mundo/Fase@fase|umariana.anisoftera.mundo/Fase#fase" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="actividadDAO" location="0,10" id="umariana.anisoftera.datos/ActividadDAO@actividadDAO+umariana.anisoftera.mundo/Fase@fase|umariana.anisoftera.datos/ActividadDAO#actividadDAO" multiplicityLabel="//@children.0/@children.7/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@children.7/@sourceConnections.1/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - actividadDAO" location="1362,1071" size="76,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1420,1043" size="18,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.7/@sourceConnections.0 //@children.0/@children.10/@sourceConnections.1" name="Actividad" location="716,39" size="146,229" id="umariana.anisoftera.mundo/Actividad" runTimeClassModel="minutosPlaneados,horasUtilizadas,EN_PROSESO,estado,Actividad(Ljava.lang.String;II),nombre,horasPlaneadas,minutosUtilizados,FINALIZADA,NO_INICIADA">
+      <children xsi:type="editmodel:CompartmentEditModel" size="123,162">
+        <children xsi:type="editmodel:AttributeEditModel" name="EN_PROSESO" id="umariana.anisoftera.mundo/Actividad#EN_PROSESO"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="FINALIZADA" id="umariana.anisoftera.mundo/Actividad#FINALIZADA"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="NO_INICIADA" id="umariana.anisoftera.mundo/Actividad#NO_INICIADA"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="estado" id="umariana.anisoftera.mundo/Actividad#estado"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="nombre" id="umariana.anisoftera.mundo/Actividad#nombre"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="horasPlaneadas" id="umariana.anisoftera.mundo/Actividad#horasPlaneadas"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="minutosPlaneados" id="umariana.anisoftera.mundo/Actividad#minutosPlaneados"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="horasUtilizadas" id="umariana.anisoftera.mundo/Actividad#horasUtilizadas"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="minutosUtilizados" id="umariana.anisoftera.mundo/Actividad#minutosUtilizados"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="74,18">
+        <children xsi:type="editmodel:MethodEditModel" name="Actividad" id="umariana.anisoftera.mundo/Actividad#Actividad(Ljava.lang.String;II)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/Semana@semana+umariana.anisoftera.mundo/Actividad@actividad" source="//@children.0/@children.8" target="//@children.0/@children.6" targetEnd="//@children.0/@children.8/@sourceConnections.0/@children.1" label="//@children.0/@children.8/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="actividad" location="15,229" id="umariana.anisoftera.mundo/Semana@semana+umariana.anisoftera.mundo/Actividad@actividad|umariana.anisoftera.mundo/Actividad#actividad" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="semana" location="118,0" id="umariana.anisoftera.mundo/Semana@semana+umariana.anisoftera.mundo/Actividad@actividad|umariana.anisoftera.mundo/Semana#semana" multiplicityLabel="//@children.0/@children.8/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@children.8/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - semana" location="966,883" size="48,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1028,883" size="18,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/TiempoActividad@tiempoActividad+umariana.anisoftera.mundo/Actividad@actividad" source="//@children.0/@children.8" target="//@children.0/@children.11" targetEnd="//@children.0/@children.8/@sourceConnections.1/@children.1" label="//@children.0/@children.8/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@children.8/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="actividad" location="82,229" id="umariana.anisoftera.mundo/TiempoActividad@tiempoActividad+umariana.anisoftera.mundo/Actividad@actividad|umariana.anisoftera.mundo/Actividad#actividad" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="tiempoActividad" location="63,0" id="umariana.anisoftera.mundo/TiempoActividad@tiempoActividad+umariana.anisoftera.mundo/Actividad@actividad|umariana.anisoftera.mundo/TiempoActividad#tiempoActividad" multiplicityLabel="//@children.0/@children.8/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@children.8/@sourceConnections.1/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - tiempoActividad" location="995,328" size="86,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1095,328" size="18,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/TiempoActividad@tiempoActividad1+umariana.anisoftera.mundo/Actividad@actividad" source="//@children.0/@children.8" target="//@children.0/@children.11" targetEnd="//@children.0/@children.8/@sourceConnections.2/@children.1" label="//@children.0/@children.8/@sourceConnections.2/@children.2" sourceEnd="//@children.0/@children.8/@sourceConnections.2/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="actividad" location="62,229" id="umariana.anisoftera.mundo/TiempoActividad@tiempoActividad1+umariana.anisoftera.mundo/Actividad@actividad|umariana.anisoftera.mundo/Actividad#actividad" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="tiempoActividad1" location="0,5" id="umariana.anisoftera.mundo/TiempoActividad@tiempoActividad1+umariana.anisoftera.mundo/Actividad@actividad|umariana.anisoftera.mundo/TiempoActividad#tiempoActividad1" multiplicityLabel="//@children.0/@children.8/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.0/@children.8/@sourceConnections.2/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - tiempoActividad1" location="926,361" size="92,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1000,333" size="18,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.6/@sourceConnections.0" name="Evalucacion" location="208,868" size="163,121" id="umariana.anisoftera.mundo/Evalucacion" runTimeClassModel="autoevaluacion,Evalucacion(),heteroevaluacion,coevaluacion">
+      <children xsi:type="editmodel:CompartmentEditModel" size="140,54">
+        <children xsi:type="editmodel:AttributeEditModel" name="autoevaluacion" id="umariana.anisoftera.mundo/Evalucacion#autoevaluacion"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="coevaluacion" id="umariana.anisoftera.mundo/Evalucacion#coevaluacion"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="heteroevaluacion" id="umariana.anisoftera.mundo/Evalucacion#heteroevaluacion"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="88,18">
+        <children xsi:type="editmodel:MethodEditModel" name="Evalucacion" id="umariana.anisoftera.mundo/Evalucacion#Evalucacion()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/Integrante@integrante+umariana.anisoftera.mundo/Evalucacion@evalucacion" source="//@children.0/@children.9" target="//@children.0/@children.5" targetEnd="//@children.0/@children.9/@sourceConnections.0/@children.1" label="//@children.0/@children.9/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.9/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="evalucacion" location="81,0" id="umariana.anisoftera.mundo/Integrante@integrante+umariana.anisoftera.mundo/Evalucacion@evalucacion|umariana.anisoftera.mundo/Evalucacion#evalucacion" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="integrante" location="90,0" id="umariana.anisoftera.mundo/Integrante@integrante+umariana.anisoftera.mundo/Evalucacion@evalucacion|umariana.anisoftera.mundo/Integrante#integrante" multiplicityLabel="//@children.0/@children.9/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@children.9/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - integrante" location="765,875" size="58,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="733,875" size="18,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.6/@sourceConnections.1" name="Tiempo" location="499,195" size="129,129" id="umariana.anisoftera.mundo/Tiempo" runTimeClassModel="horas,fechaInicio,reseso,comentario,fechaFin">
+      <children xsi:type="editmodel:CompartmentEditModel" size="106,90">
+        <children xsi:type="editmodel:AttributeEditModel" name="comentario" id="umariana.anisoftera.mundo/Tiempo#comentario"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="fechaFin" id="umariana.anisoftera.mundo/Tiempo#fechaFin"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="fechaInicio" id="umariana.anisoftera.mundo/Tiempo#fechaInicio"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="horas" id="umariana.anisoftera.mundo/Tiempo#horas"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="reseso" id="umariana.anisoftera.mundo/Tiempo#reseso"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/Integrante@integrante+umariana.anisoftera.mundo/Tiempo@tiempo" source="//@children.0/@children.10" target="//@children.0/@children.5" targetEnd="//@children.0/@children.10/@sourceConnections.0/@children.1" label="//@children.0/@children.10/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.10/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="tiempo" location="6,129" id="umariana.anisoftera.mundo/Integrante@integrante+umariana.anisoftera.mundo/Tiempo@tiempo|umariana.anisoftera.mundo/Tiempo#tiempo" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="integrante" location="173,0" id="umariana.anisoftera.mundo/Integrante@integrante+umariana.anisoftera.mundo/Tiempo@tiempo|umariana.anisoftera.mundo/Integrante#integrante" multiplicityLabel="//@children.0/@children.10/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@children.10/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - integrante" location="776,875" size="58,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="848,875" size="18,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/Actividad@actividad+umariana.anisoftera.mundo/Tiempo@tiempo" source="//@children.0/@children.10" target="//@children.0/@children.8" targetEnd="//@children.0/@children.10/@sourceConnections.1/@children.1" label="//@children.0/@children.10/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@children.10/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="tiempo" location="129,36" id="umariana.anisoftera.mundo/Actividad@actividad+umariana.anisoftera.mundo/Tiempo@tiempo|umariana.anisoftera.mundo/Tiempo#tiempo" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="actividad" location="0,192" id="umariana.anisoftera.mundo/Actividad@actividad+umariana.anisoftera.mundo/Tiempo@tiempo|umariana.anisoftera.mundo/Actividad#actividad" multiplicityLabel="//@children.0/@children.10/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@children.10/@sourceConnections.1/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - actividad" location="1028,208" size="53,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1063,236" size="18,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.8/@sourceConnections.1 //@children.0/@children.8/@sourceConnections.2" name="TiempoActividad" location="735,351" size="149,103" id="umariana.anisoftera.mundo/TiempoActividad" runTimeClassModel="horas,TiempoActividad(),minutos">
+      <children xsi:type="editmodel:CompartmentEditModel" size="73,36">
+        <children xsi:type="editmodel:AttributeEditModel" name="horas" id="umariana.anisoftera.mundo/TiempoActividad#horas"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="minutos" id="umariana.anisoftera.mundo/TiempoActividad#minutos"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="109,18">
+        <children xsi:type="editmodel:MethodEditModel" name="TiempoActividad" id="umariana.anisoftera.mundo/TiempoActividad#TiempoActividad()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="umariana.anisoftera.datos" location="1222,-15" size="509,1200" id="umariana.anisoftera.datos">
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@children.2/@sourceConnections.0 //@children.1/@children.4/@sourceConnections.0 //@children.1/@children.7/@sourceConnections.1" name="Fachada" location="289,350" size="168,391" id="umariana.anisoftera.datos/Fachada" runTimeClassModel="Fachada(),desconectar(Ljava.sql.Connection;),dRIVER,password,driver,uSUARIO,usuario,uRL,pASSWORD,url,conectar()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="145,216">
+        <children xsi:type="editmodel:AttributeEditModel" name="dRIVER" id="umariana.anisoftera.datos/Fachada#dRIVER"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="pASSWORD" id="umariana.anisoftera.datos/Fachada#pASSWORD"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="uRL" id="umariana.anisoftera.datos/Fachada#uRL"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="uSUARIO" id="umariana.anisoftera.datos/Fachada#uSUARIO"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="driverFachada" id="umariana.anisoftera.datos/Fachada#driverFachada"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="passwordFachada" id="umariana.anisoftera.datos/Fachada#passwordFachada"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="urlFachada" id="umariana.anisoftera.datos/Fachada#urlFachada"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="usuarioFachada" id="umariana.anisoftera.datos/Fachada#usuarioFachada"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="password" id="umariana.anisoftera.datos/Fachada#password"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="driver" id="umariana.anisoftera.datos/Fachada#driver"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="usuario" id="umariana.anisoftera.datos/Fachada#usuario"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="url" id="umariana.anisoftera.datos/Fachada#url"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="137,198">
+        <children xsi:type="editmodel:MethodEditModel" name="Fachada" id="umariana.anisoftera.datos/Fachada#Fachada()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="conectar" id="umariana.anisoftera.datos/Fachada#conectar()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="desconectar" id="umariana.anisoftera.datos/Fachada#desconectar(Ljava.sql.Connection;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="UsuarioDAO" location="366,38" size="130,193" id="umariana.anisoftera.datos/UsuarioDAO" runTimeClassModel="eliminar(Lumariana.anisoftera.mundo.Usuario;),agregar(Lumariana.anisoftera.mundo.Usuario;),UsuarioDAO(),modificar(Lumariana.anisoftera.mundo.Usuario;),listar()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="107,18"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="90,126">
+        <children xsi:type="editmodel:MethodEditModel" name="UsuarioDAO" id="umariana.anisoftera.datos/UsuarioDAO#UsuarioDAO()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregar" id="umariana.anisoftera.datos/UsuarioDAO#agregar(Lumariana.anisoftera.mundo.Usuario;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminar" id="umariana.anisoftera.datos/UsuarioDAO#eliminar(Lumariana.anisoftera.mundo.Usuario;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="listar" id="umariana.anisoftera.datos/UsuarioDAO#listar()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificar" id="umariana.anisoftera.datos/UsuarioDAO#modificar(Lumariana.anisoftera.mundo.Usuario;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.1/@sourceConnections.1" name="EquipoDAO" location="39,88" size="130,193" id="umariana.anisoftera.datos/EquipoDAO" runTimeClassModel="modificar(Lumariana.anisoftera.mundo.Equipo;),EquipoDAO(),eliminar(Lumariana.anisoftera.mundo.Equipo;Ljava.lang.String;),agregar(Lumariana.anisoftera.mundo.Equipo;Ljava.lang.String;),listar(Ljava.lang.String;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="107,18"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="87,126">
+        <children xsi:type="editmodel:MethodEditModel" name="EquipoDAO" id="umariana.anisoftera.datos/EquipoDAO#EquipoDAO()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificar" id="umariana.anisoftera.datos/EquipoDAO#modificar(Lumariana.anisoftera.mundo.Equipo;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminar" id="umariana.anisoftera.datos/EquipoDAO#eliminar(Lumariana.anisoftera.mundo.Equipo;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="listar" id="umariana.anisoftera.datos/EquipoDAO#listar(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregar" id="umariana.anisoftera.datos/EquipoDAO#agregar(Lumariana.anisoftera.mundo.Equipo;Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.datos/EquipoDAO@equipoDAO+umariana.anisoftera.mundo/Usuario@usuario" source="//@children.1/@children.2" target="//@children.1/@children.0" targetEnd="//@children.1/@children.2/@sourceConnections.0/@children.1" label="//@children.1/@children.2/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="equipoDAO" location="120,193" id="umariana.anisoftera.datos/EquipoDAO@equipoDAO+umariana.anisoftera.mundo/Usuario@usuario|umariana.anisoftera.datos/EquipoDAO#equipoDAO" attachSource="true" multiplicityLabel="//@children.1/@children.2/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.1/@children.2/@sourceConnections.0/@children.0/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - equipoDAO" location="1317,272" size="65,14" anchorKind="FirstPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1396,272" size="18,14" anchorKind="FirstPart"/>
+        </children>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="usuario" location="0,10" id="umariana.anisoftera.datos/EquipoDAO@equipoDAO+umariana.anisoftera.mundo/Usuario@usuario|umariana.anisoftera.mundo/Usuario#usuario"/>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="ProyectoDAO" location="40,347" size="130,193" id="umariana.anisoftera.datos/ProyectoDAO" runTimeClassModel="eliminar(Lumariana.anisoftera.mundo.Proyecto;Ljava.lang.String;),ProyectoDAO(),agregar(Lumariana.anisoftera.mundo.Proyecto;Ljava.lang.String;),modificar(Lumariana.anisoftera.mundo.Proyecto;),listar(Ljava.lang.String;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="107,18"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="96,126">
+        <children xsi:type="editmodel:MethodEditModel" name="ProyectoDAO" id="umariana.anisoftera.datos/ProyectoDAO#ProyectoDAO()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificar" id="umariana.anisoftera.datos/ProyectoDAO#modificar(Lumariana.anisoftera.mundo.Proyecto;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregar" id="umariana.anisoftera.datos/ProyectoDAO#agregar(Lumariana.anisoftera.mundo.Proyecto;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminar" id="umariana.anisoftera.datos/ProyectoDAO#eliminar(Lumariana.anisoftera.mundo.Proyecto;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="listar" id="umariana.anisoftera.datos/ProyectoDAO#listar(Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.3/@sourceConnections.1" name="CicloDAO" location="19,555" size="130,193" id="umariana.anisoftera.datos/CicloDAO" runTimeClassModel="modificar(Lumariana.anisoftera.mundo.Ciclo;),CicloDAO(),agregar(Lumariana.anisoftera.mundo.Ciclo;Ljava.lang.String;),listar(Ljava.lang.String;),eliminar(Lumariana.anisoftera.mundo.Ciclo;Ljava.lang.String;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="107,18"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="87,126">
+        <children xsi:type="editmodel:MethodEditModel" name="CicloDAO" id="umariana.anisoftera.datos/CicloDAO#CicloDAO()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificar" id="umariana.anisoftera.datos/CicloDAO#modificar(Lumariana.anisoftera.mundo.Ciclo;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminar" id="umariana.anisoftera.datos/CicloDAO#eliminar(Lumariana.anisoftera.mundo.Ciclo;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="listar" id="umariana.anisoftera.datos/CicloDAO#listar(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregar" id="umariana.anisoftera.datos/CicloDAO#agregar(Lumariana.anisoftera.mundo.Ciclo;Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.datos/CicloDAO@cicloDAO+umariana.anisoftera.mundo/Proyecto@proyecto" source="//@children.1/@children.4" target="//@children.1/@children.0" targetEnd="//@children.1/@children.4/@sourceConnections.0/@children.1" label="//@children.1/@children.4/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="cicloDAO" location="130,92" id="umariana.anisoftera.datos/CicloDAO@cicloDAO+umariana.anisoftera.mundo/Proyecto@proyecto|umariana.anisoftera.datos/CicloDAO#cicloDAO" attachSource="true" multiplicityLabel="//@children.1/@children.4/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.1/@children.4/@sourceConnections.0/@children.0/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - cicloDAO" location="1387,611" size="55,14" anchorKind="FirstPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1387,639" size="18,14" anchorKind="FirstPart"/>
+        </children>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="proyecto" location="0,297" id="umariana.anisoftera.datos/CicloDAO@cicloDAO+umariana.anisoftera.mundo/Proyecto@proyecto|umariana.anisoftera.mundo/Proyecto#proyecto"/>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="SemanaDAO" location="75,763" size="130,193" id="umariana.anisoftera.datos/SemanaDAO" runTimeClassModel="modificar(Lumariana.anisoftera.mundo.Semana;),eliminar(Lumariana.anisoftera.mundo.Semana;),listar(Ljava.lang.String;),agregar(Lumariana.anisoftera.mundo.Semana;Ljava.lang.String;),SemanaDAO()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="107,18"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="92,126">
+        <children xsi:type="editmodel:MethodEditModel" name="SemanaDAO" id="umariana.anisoftera.datos/SemanaDAO#SemanaDAO()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregar" id="umariana.anisoftera.datos/SemanaDAO#agregar(Lumariana.anisoftera.mundo.Semana;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminar" id="umariana.anisoftera.datos/SemanaDAO#eliminar(Lumariana.anisoftera.mundo.Semana;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificar" id="umariana.anisoftera.datos/SemanaDAO#modificar(Lumariana.anisoftera.mundo.Semana;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="listar" id="umariana.anisoftera.datos/SemanaDAO#listar(Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="IntegranteDAO" location="331,853" size="135,193" id="umariana.anisoftera.datos/IntegranteDAO" runTimeClassModel="IntegranteDAO(),modificar(Lumariana.anisoftera.mundo.Integrante;),listar(Ljava.lang.String;),agregar(Lumariana.anisoftera.mundo.Integrante;Ljava.lang.String;),eliminar(Lumariana.anisoftera.mundo.Integrante;Ljava.lang.String;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="107,18"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="101,126">
+        <children xsi:type="editmodel:MethodEditModel" name="IntegranteDAO" id="umariana.anisoftera.datos/IntegranteDAO#IntegranteDAO()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificar" id="umariana.anisoftera.datos/IntegranteDAO#modificar(Lumariana.anisoftera.mundo.Integrante;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="agregar" id="umariana.anisoftera.datos/IntegranteDAO#agregar(Lumariana.anisoftera.mundo.Integrante;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminar" id="umariana.anisoftera.datos/IntegranteDAO#eliminar(Lumariana.anisoftera.mundo.Integrante;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="listar" id="umariana.anisoftera.datos/IntegranteDAO#listar(Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.4/@sourceConnections.1" name="FaseDAO" location="68,991" size="119,139" id="umariana.anisoftera.datos/FaseDAO" runTimeClassModel="eliminar(Lumariana.anisoftera.mundo.Fase;),listar(),asignarFases([Ljava.lang.String;Ljava.lang.String;),FaseDAO(),agregar(Lumariana.anisoftera.mundo.Fase;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="96,90">
+        <children xsi:type="editmodel:MethodEditModel" name="agregar" id="umariana.anisoftera.datos/FaseDAO#agregar(Lumariana.anisoftera.mundo.Fase;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminar" id="umariana.anisoftera.datos/FaseDAO#eliminar(Lumariana.anisoftera.mundo.Fase;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="FaseDAO" id="umariana.anisoftera.datos/FaseDAO#FaseDAO()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="listar" id="umariana.anisoftera.datos/FaseDAO#listar()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="asignarFases" id="umariana.anisoftera.datos/FaseDAO#asignarFases([Ljava.lang.String;Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.datos/FaseDAO@faseDAO+umariana.anisoftera.mundo/Integracion@integracion" source="//@children.1/@children.7" target="//@children.0/@children.0" targetEnd="//@children.1/@children.7/@sourceConnections.0/@children.1" label="//@children.1/@children.7/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="faseDAO" location="0,10" id="umariana.anisoftera.datos/FaseDAO@faseDAO+umariana.anisoftera.mundo/Integracion@integracion|umariana.anisoftera.datos/FaseDAO#faseDAO" attachSource="true" multiplicityLabel="//@children.1/@children.7/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.1/@children.7/@sourceConnections.0/@children.0/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - faseDAO" location="1236,992" size="55,14" anchorKind="FirstPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1273,964" size="18,14" anchorKind="FirstPart"/>
+        </children>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="integracion" location="157,715" id="umariana.anisoftera.datos/FaseDAO@faseDAO+umariana.anisoftera.mundo/Integracion@integracion|umariana.anisoftera.mundo/Integracion#integracion"/>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.datos/Fachada@fachada+umariana.anisoftera.datos/FaseDAO@faseDAO" source="//@children.1/@children.7" target="//@children.1/@children.0" targetEnd="//@children.1/@children.7/@sourceConnections.1/@children.1" label="//@children.1/@children.7/@sourceConnections.1/@children.2" sourceEnd="//@children.1/@children.7/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="faseDAO" location="109,0" id="umariana.anisoftera.datos/Fachada@fachada+umariana.anisoftera.datos/FaseDAO@faseDAO|umariana.anisoftera.datos/FaseDAO#faseDAO" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="fachada" location="0,381" id="umariana.anisoftera.datos/Fachada@fachada+umariana.anisoftera.datos/FaseDAO@faseDAO|umariana.anisoftera.datos/Fachada#fachada" multiplicityLabel="//@children.1/@children.7/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.1/@children.7/@sourceConnections.1/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - fachada" location="1463,695" size="50,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1495,723" size="18,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.7/@sourceConnections.1" name="ActividadDAO" location="215,1070" size="129,121" id="umariana.anisoftera.datos/ActividadDAO" runTimeClassModel="eliminar(),modificar(Lumariana.anisoftera.mundo.Actividad;),listar(Ljava.lang.String;),agregar(Lumariana.anisoftera.mundo.Actividad;Ljava.lang.String;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="74,72">
+        <children xsi:type="editmodel:MethodEditModel" name="agregar" id="umariana.anisoftera.datos/ActividadDAO#agregar(Lumariana.anisoftera.mundo.Actividad;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modificar" id="umariana.anisoftera.datos/ActividadDAO#modificar(Lumariana.anisoftera.mundo.Actividad;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="eliminar" id="umariana.anisoftera.datos/ActividadDAO#eliminar()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="listar" id="umariana.anisoftera.datos/ActividadDAO#listar(Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="umariana.anisoftera.controlador" location="209,1110" size="1015,270" id="umariana.anisoftera.controlador">
+    <children xsi:type="editmodel:ClassEditModel" name="LoginUsuario" location="14,36" size="126,85" id="umariana.anisoftera.controlador/LoginUsuario" runTimeClassModel="LoginUsuario(),doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="93,36">
+        <children xsi:type="editmodel:MethodEditModel" name="LoginUsuario" id="umariana.anisoftera.controlador/LoginUsuario#LoginUsuario()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="doPost" id="umariana.anisoftera.controlador/LoginUsuario#doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="AgregarEquipo" location="176,39" size="137,85" id="umariana.anisoftera.controlador/AgregarEquipo" runTimeClassModel="doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;),AgregarEquipo()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="101,36">
+        <children xsi:type="editmodel:MethodEditModel" name="AgregarEquipo" id="umariana.anisoftera.controlador/AgregarEquipo#AgregarEquipo()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="doPost" id="umariana.anisoftera.controlador/AgregarEquipo#doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="AgregarUsuario" location="512,49" size="141,85" id="umariana.anisoftera.controlador/AgregarUsuario" runTimeClassModel="AgregarUsuario(),doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="106,36">
+        <children xsi:type="editmodel:MethodEditModel" name="AgregarUsuario" location="-2,35" id="umariana.anisoftera.controlador/AgregarUsuario#AgregarUsuario()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="doPost" id="umariana.anisoftera.controlador/AgregarUsuario#doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="AgregarIntegrnate" location="677,49" size="158,85" id="umariana.anisoftera.controlador/AgregarIntegrnate" runTimeClassModel="AgregarIntegrnate(),doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="117,36">
+        <children xsi:type="editmodel:MethodEditModel" name="AgregarIntegrnate" id="umariana.anisoftera.controlador/AgregarIntegrnate#AgregarIntegrnate()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="doPost" id="umariana.anisoftera.controlador/AgregarIntegrnate#doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="AgregarCiclo" location="345,43" size="125,85" id="umariana.anisoftera.controlador/AgregarCiclo" runTimeClassModel="AgregarCiclo(),doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="92,36">
+        <children xsi:type="editmodel:MethodEditModel" name="AgregarCiclo" id="umariana.anisoftera.controlador/AgregarCiclo#AgregarCiclo()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="doPost" id="umariana.anisoftera.controlador/AgregarCiclo#doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="AgregarSemana" location="855,48" size="146,85" id="umariana.anisoftera.controlador/AgregarSemana" runTimeClassModel="doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;),AgregarSemana()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="108,36">
+        <children xsi:type="editmodel:MethodEditModel" name="AgregarSemana" id="umariana.anisoftera.controlador/AgregarSemana#AgregarSemana()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="doPost" id="umariana.anisoftera.controlador/AgregarSemana#doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="AgregarFase" location="381,208" size="123,85" id="umariana.anisoftera.controlador/AgregarFase" runTimeClassModel="doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;),AgregarFase()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="93,36">
+        <children xsi:type="editmodel:MethodEditModel" name="AgregarFase" id="umariana.anisoftera.controlador/AgregarFase#AgregarFase()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="doPost" id="umariana.anisoftera.controlador/AgregarFase#doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/Integracion@integracion+umariana.anisoftera.controlador/AgregarFase@agregarFase" source="//@children.2/@children.6" target="//@children.0/@children.0" targetEnd="//@children.2/@children.6/@sourceConnections.0/@children.1" label="//@children.2/@children.6/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@children.6/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="agregarFase" location="10,0" id="umariana.anisoftera.mundo/Integracion@integracion+umariana.anisoftera.controlador/AgregarFase@agregarFase|umariana.anisoftera.controlador/AgregarFase#agregarFase" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="integracion" location="167,705" id="umariana.anisoftera.mundo/Integracion@integracion+umariana.anisoftera.controlador/AgregarFase@agregarFase|umariana.anisoftera.mundo/Integracion#integracion" multiplicityLabel="//@children.2/@children.6/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@children.6/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - integracion" location="493,720" size="63,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="493,748" size="18,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="AgregarActividad" location="10,213" size="152,85" id="umariana.anisoftera.controlador/AgregarActividad" runTimeClassModel="doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;),AgregarActividad()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="114,36">
+        <children xsi:type="editmodel:MethodEditModel" name="AgregarActividad" id="umariana.anisoftera.controlador/AgregarActividad#AgregarActividad()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="doPost" id="umariana.anisoftera.controlador/AgregarActividad#doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/Integracion@integracion+umariana.anisoftera.controlador/AgregarActividad@agregarActividad" source="//@children.2/@children.7" target="//@children.0/@children.0" targetEnd="//@children.2/@children.7/@sourceConnections.0/@children.1" label="//@children.2/@children.7/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="agregarActividad" location="126,0" id="umariana.anisoftera.mundo/Integracion@integracion+umariana.anisoftera.controlador/AgregarActividad@agregarActividad|umariana.anisoftera.controlador/AgregarActividad#agregarActividad" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="integracion" location="25,715" id="umariana.anisoftera.mundo/Integracion@integracion+umariana.anisoftera.controlador/AgregarActividad@agregarActividad|umariana.anisoftera.mundo/Integracion#integracion" multiplicityLabel="//@children.2/@children.7/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@children.7/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - integracion" location="351,759" size="63,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="319,759" size="18,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="RegistrarFaseProyecto" location="179,207" size="185,85" id="umariana.anisoftera.controlador/RegistrarFaseProyecto" runTimeClassModel="doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;),RegistrarFaseProyecto()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="141,36">
+        <children xsi:type="editmodel:MethodEditModel" name="RegistrarFaseProyecto" id="umariana.anisoftera.controlador/RegistrarFaseProyecto#RegistrarFaseProyecto()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="doPost" id="umariana.anisoftera.controlador/RegistrarFaseProyecto#doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/Integracion@integracion+umariana.anisoftera.controlador/RegistrarFaseProyecto@registrarFaseProyecto" source="//@children.2/@children.8" target="//@children.0/@children.0" targetEnd="//@children.2/@children.8/@sourceConnections.0/@children.1" label="//@children.2/@children.8/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="registrarFaseProyecto" location="49,0" id="umariana.anisoftera.mundo/Integracion@integracion+umariana.anisoftera.controlador/RegistrarFaseProyecto@registrarFaseProyecto|umariana.anisoftera.controlador/RegistrarFaseProyecto#registrarFaseProyecto" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="integracion" location="117,715" id="umariana.anisoftera.mundo/Integracion@integracion+umariana.anisoftera.controlador/RegistrarFaseProyecto@registrarFaseProyecto|umariana.anisoftera.mundo/Integracion#integracion" multiplicityLabel="//@children.2/@children.8/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@children.8/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - integracion" location="443,759" size="63,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="411,759" size="18,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="RegistrarActividadProyecto" location="522,209" size="214,85" id="umariana.anisoftera.controlador/RegistrarActividadProyecto" runTimeClassModel="doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;),RegistrarActividadProyecto()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="162,36">
+        <children xsi:type="editmodel:MethodEditModel" name="RegistrarActividadProyecto" id="umariana.anisoftera.controlador/RegistrarActividadProyecto#RegistrarActividadProyecto()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="doPost" id="umariana.anisoftera.controlador/RegistrarActividadProyecto#doPost(Ljavax.servlet.http.HttpServletRequest;Ljavax.servlet.http.HttpServletResponse;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="umariana.anisoftera.mundo/Integracion@integracion+umariana.anisoftera.controlador/RegistrarActividadProyecto@registrarActividadProyecto" source="//@children.2/@children.9" target="//@children.0/@children.0" targetEnd="//@children.2/@children.9/@sourceConnections.0/@children.1" label="//@children.2/@children.9/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@children.9/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="registrarActividadProyecto" location="10,0" id="umariana.anisoftera.mundo/Integracion@integracion+umariana.anisoftera.controlador/RegistrarActividadProyecto@registrarActividadProyecto|umariana.anisoftera.controlador/RegistrarActividadProyecto#registrarActividadProyecto" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="integracion" location="167,705" id="umariana.anisoftera.mundo/Integracion@integracion+umariana.anisoftera.controlador/RegistrarActividadProyecto@registrarActividadProyecto|umariana.anisoftera.mundo/Integracion#integracion" multiplicityLabel="//@children.2/@children.9/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@children.9/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - integracion" location="493,720" size="63,14" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="493,748" size="18,14" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler>
+      <guides position="143"/>
+    </topRuler>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
