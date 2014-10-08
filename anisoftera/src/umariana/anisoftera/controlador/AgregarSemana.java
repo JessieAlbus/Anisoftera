@@ -68,6 +68,7 @@ public class AgregarSemana extends HttpServlet{
 		
 		
 		// esta es una prueva 
+		// otro comentario 
 		String modificar = request.getParameter("modificar")==null?"null":request.getParameter("modificar");
 		String eliminar = request.getParameter("eliminar") ==null?"null":request.getParameter("eliminar");
 		String boton = request.getParameter("boton")==null?"null":request.getParameter("boton");
