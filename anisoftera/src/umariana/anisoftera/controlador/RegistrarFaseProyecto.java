@@ -10,7 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.mysql.jdbc.EscapeTokenizer;
 import com.sun.xml.internal.ws.api.ha.StickyFeature;
 
 import umariana.anisoftera.mundo.Ciclo;
@@ -19,7 +18,6 @@ import umariana.anisoftera.mundo.Fase;
 import umariana.anisoftera.mundo.Integracion;
 import umariana.anisoftera.mundo.Proyecto;
 import umariana.anisoftera.mundo.Semana;
-
 
 public class RegistrarFaseProyecto extends HttpServlet {
 
@@ -44,8 +42,7 @@ public class RegistrarFaseProyecto extends HttpServlet {
 	 * @uml.property  name="integracion"
 	 */
 	public void setIntegracion(Integracion integracion) {
-		this.integracion = integracion;
-		
+		this.integracion = integracion;	
 	}
 
 	/**
@@ -57,6 +54,7 @@ public class RegistrarFaseProyecto extends HttpServlet {
 	}
 
 	/**
+	 * Metodo del controlador Registrar la Fase del Proyecto
 	 */
 	public void doPost(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException{
 		try {
