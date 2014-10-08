@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/bootstrap-theme.css">
-<link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="/code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
 <link rel="stylesheet" href="/resources/demos/style.css">
 <link rel="stylesheet" href="./css/combobox.css">
 
@@ -44,11 +44,11 @@
 		});
 	});
 </script>
-<!-- Valida el formulario para cargar el array del select destino -->
+<!-- Valida el formulario para cargar el Array del select destino -->
 <script type="text/javascript">
 	function datosDestino(){
 		var combo = document.forms["forma2"].destino;
-		   for (var i = 0; i < destino.length; i++) {
+		   for (var i = 0; i < destino.length; i++){
 		         combo[i].selected = true; 
 		   }
 		   this.forma2.submit();
@@ -57,7 +57,7 @@
 <!-- Validar una sola vez el formulario -->
 <script type="text/javascript">
 	function cargar() {
-		if (document.getElementById('bandera').value == "") {
+		if (document.getElementById('bandera').value == ""){
 			document.forma2.submit();
 		}
 	}
@@ -115,7 +115,8 @@
 							</c:otherwise>
 						</c:choose>
 				</c:forEach>
-			</select></td>
+			</select>
+		</td>
 </tr>
 	<tr>
 		<td><h4>Ciclos:</h4></td>
